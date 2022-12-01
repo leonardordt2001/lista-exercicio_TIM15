@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Notas,disciplina,nmr da turma</h1>
+    <p>Nome:<span id="Nome"></span></p>
+    <p>disciplina:<span id="disciplina"></span></p>
+    <p>numero turma:<span id="numero_turma"></span></p>
+    <p>nota1:<span id="nota1"></span></p>
+    <p>nota2:<span id="nota2"></span></p>
+    <p>nota3:<span id="nota3"></span></p>
+    <p>media:<span id="media"></span></p>
+    
+<script>
+    let nome = (prompt("digite o nome do aluno"));
+    let disciplina = (prompt("digite a disciplina do aluno"));
+    let numeroTurma = (prompt("digite o numero da turma"));
+    let nota1 =Number (prompt("digite a nota1"));
+    let nota2 =Number (prompt("digite a nota2"));
+    let nota3 =Number (prompt("digite a nota3"));
+    let media =Number ((nota1+nota2+nota3) /3);
+    document.getElementById("Nome").innerHTML=nome;
+    document.getElementById("numero_turma").innerHTML=numeroTurma;
+    document.getElementById("nota1").innerHTML=nota1;
+    document.getElementById("nota2").innerHTML=nota2;
+    document.getElementById("nota3").innerHTML=nota3;
+    document.getElementById("media").innerHTML=media;
+    document.getElementById("disciplina").innerHTML=disciplina;
+
+
+</script>
+</body>
+</html>
