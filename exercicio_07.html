@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>nome do correntista:<span id="nomedocorrentista"></span></p>
+    <p>nome do banco:<span id="nomedobanco"></span></p>
+    <p>numero da conta:<span id="numeroDaconta"></span></p>
+    <p>total de cheque a debitar: <span id="totaldochequeadebitar"></span></p>
+    <p>total dinheiro a creditar: <span id="totaldinheiroacreditar"></span></p>
+    <p>total cheque a creditar: <span id="totaldochequeacreditar"></span></p>
+    <p>limite de credito: <span id="limitedecredito"></span></p>
+    <p>saldo atual: <span id="saldoatual"></span></p>
+    <p>saldo disponivel: <span id="saldodisponivel"></span></p>
+    <script>
+        let nomedocorrentista = prompt("digite o nome do correntista");
+        let nomedobanco = prompt("digite o nome do banco");
+        let numerodaconta = prompt("digite o nome da conta");
+        let totaldochequeadebitar = Number  (prompt("digite o valor do credito a debitar"));
+        let totaldinheiroacreditar = Number (prompt("digite o total de dinheiro a creditar"));
+        let totaldochequeacreditar = Number (prompt("digite o valor do credito a debitar"));
+        let limitedecredito = Number (prompt("digite o limite de credito"));
+        let saldoatual = Number (prompt("digite o saldo atual"));
+       // let saldodisponivel= 
+        
+        document.getElementById("nomedocorrentista").innerHTML=nomedocorrentista;
+        document.getElementById("nomedobanco").innerHTML=nomedobanco;
+        document.getElementById("numeroDaconta").innerHTML=numeroDaconta;
+        document.getElementById("totaldochequeadebitar").innerHTML=totaldochequeadebitar;
+        document.getElementById("totaldinheiroacreditar").innerHTML=totaldinheiroacreditar;
+        document.getElementById("totaldochequeacreditar").innerHTML=totaldochequeacreditar;
+        document.getElementById("limitedecredito").innerHTML=limitedecredito;
+        document.getElementById("saldoatual").innerHTML=saldoatual;
+        document.getElementById("saldodisponivel").innerHTML=saldodisponivel;
+
+    </script>
+
+</body>
+</html>

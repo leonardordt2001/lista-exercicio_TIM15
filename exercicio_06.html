@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>nome da loja:<span id="nomeDaloja"></span></p>
+    <p>mes1 <span id="mes1"></span></p>
+    <p>mes2: <span id="mes2"></span></p>
+    <p>mes3: <span id="mes3"></span></p>
+    <p>mes4: <span id="mes4"></span></p>
+    <p>mes5: <span id="mes5"></span></p>
+    <p>mes6: <span id="mes6"></span></p>
+    <p>mes7: <span id="mes7"></span></p>
+    <p>mes8: <span id="mes8"></span></p>
+    <p>mes9: <span id="mes9"></span></p>
+    <p>mes10: <span id="mes10"></span></p>
+    <p>mes11: <span id="mes11"></span></p>
+    <p>mes12: <span id="mes12"></span></p>
+    <p>totaldevendas: <span id="totaldevendas"></span></p>
+
+    <script>
+        let nomeDaloja = prompt("digite o nome da loja");
+        let mes1 = Number(prompt("digite o valor total do mes 1"));
+        let mes2 = Number(prompt("digite o valor total do mes 2"));
+        let mes3 = Number(prompt("digite o valor total do mes 3"));
+        let mes4 = Number(prompt("digite o valor total do mes 4"));
+        let mes5 = Number(prompt("digite o valor total do mes 5"));
+        let mes6 = Number(prompt("digite o valor total do mes 6"));
+        let mes7 = Number(prompt("digite o valor total do mes 7"));
+        let mes8 = Number(prompt("digite o valor total do mes 8"));
+        let mes9 = Number(prompt("digite o valor total do mes 9"));
+        let mes10 = Number(prompt("digite o valor total do mes 10"));
+        let mes11 = Number(prompt("digite o valor total do mes 11"));
+        let mes12 = Number(prompt("digite o valor total do mes 12"));
+        let totaldevendas = (mes1+mes2+mes3+mes4+mes5+mes6+mes7+mes8+mes9+mes10+mes11+mes12);
+        
+        document.getElementById("nomeDaloja").innerHTML=nomeDaloja;
+        document.getElementById("mes1").innerHTML=mes1;
+        document.getElementById("mes2").innerHTML=mes2;
+        document.getElementById("mes3").innerHTML=mes3;
+        document.getElementById("mes4").innerHTML=mes4;
+        document.getElementById("mes5").innerHTML=mes5;
+        document.getElementById("mes6").innerHTML=mes6;
+        document.getElementById("mes7").innerHTML=mes7;
+        document.getElementById("mes8").innerHTML=mes8;
+        document.getElementById("mes9").innerHTML=mes9;
+        document.getElementById("mes10").innerHTML=mes10;
+        document.getElementById("mes11").innerHTML=mes11;
+        document.getElementById("mes12").innerHTML=mes12;
+        document.getElementById("totaldevendas").innerHTML=totaldevendas;
+    </script>
+    
+</body>
+</html>
